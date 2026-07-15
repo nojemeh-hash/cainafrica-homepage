@@ -26,6 +26,11 @@ header{
     padding:18px 60px;
 }
 
+.hero-content h1{
+    font-size:4.5rem;
+    font-weight:700;
+}
+
 header h1{
 font-size:28px;
 }
