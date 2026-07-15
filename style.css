@@ -49,28 +49,26 @@ nav a:hover{
 
 .hero{
     position: relative;
-    background: linear-gradient(
-        rgba(0,64,128,0.75),
-        rgba(0,64,128,0.75)
+    min-height: 100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,35,80,.55),
+        rgba(0,35,80,.45)
     ),
-    url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1600")
-    center/cover no-repeat;
+    url("images/hero.jpg");
 
-    color: white;
-    text-align: center;
-    padding: 120px 20px;
-}
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-.hero h2{
-    font-size:42px;
-    margin-bottom:20px;
-}
+    display:flex;
+    align-items:center;
+    justify-content:center;
 
-.hero p{
-    max-width:700px;
-    margin:auto;
-    margin-bottom:30px;
-    font-size:18px;
+    color:white;
+    text-align:center;
+    padding:0 20px;
 }
 
 .btn{
