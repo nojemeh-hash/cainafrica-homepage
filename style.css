@@ -15,19 +15,20 @@ color:#333;
 }
 
 header{
-    position: fixed;
+    position:fixed;
+    width:100%;
     top:0;
     left:0;
-    width:100%;
+    z-index:1000;
 
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-
-    padding:18px 60px;
     background:rgba(0,35,80,.92);
 
-    z-index:1000;
+    padding:18px 60px;
+}
+
+.hero-content h1{
+    font-size:4.5rem;
+    font-weight:700;
 }
 
 header h1{
@@ -75,10 +76,6 @@ nav a:hover{
     padding:0 20px;
 }
 
-.hero{
-    padding-top:90px;
-}
-
 .hero-content{
     max-width:750px;
 }
@@ -105,12 +102,17 @@ nav a:hover{
     font-size:1rem;
 }
 
+}
+
 .btn{
-    background:#FFD54F;
-    color:#003366;
-    font-weight:bold;
-    border-radius:40px;
-    }
+    display:inline-block;
+    background:#004080;
+    color:white;
+    padding:14px 28px;
+    border-radius:5px;
+    text-decoration:none;
+    transition:.3s;
+}
 
 .btn:hover{
     background:#002b5c;
@@ -124,14 +126,6 @@ nav a:hover{
 .card:hover{
     transform:translateY(-8px);
     box-shadow:0 12px 30px rgba(0,0,0,.15);
-}
-
-.card i{
-    transition:.3s;
-}
-
-.card:hover i{
-    transform:scale(1.15);
 }
 
 .features{
@@ -205,7 +199,7 @@ margin-top:50px;
 
 header{
 
-.flex-direction:column;
+flex-direction:column;
 
 }
 
@@ -219,8 +213,10 @@ margin-top:20px;
 
 }
 
-.hero-content h1{
-    font-size:2.4rem;
+.hero h2{
+
+font-size:28px;
+
 }
 
 .hero{
