@@ -12,23 +12,23 @@ body{
 line-height:1.6;
 background:#f4f7fb;
 color:#333;
+padding-top:80px;
 }
 
 header{
-    position:fixed;
-    width:100%;
+    position: fixed;
     top:0;
     left:0;
-    z-index:1000;
+    width:100%;
 
-    background:rgba(0,35,80,.92);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
     padding:18px 60px;
-}
+    background:rgba(0,35,80,.92);
 
-.hero-content h1{
-    font-size:4.5rem;
-    font-weight:700;
+    z-index:1000;
 }
 
 header h1{
@@ -106,8 +106,10 @@ nav a:hover{
 
 .btn{
     display:inline-block;
-    background:#004080;
-    color:white;
+    background:#FFD54F;
+    color:#003366;
+    font-weight:bold;
+    border-radius:40px;
     padding:14px 28px;
     border-radius:5px;
     text-decoration:none;
@@ -213,10 +215,8 @@ margin-top:20px;
 
 }
 
-.hero h2{
-
-font-size:28px;
-
+.hero-content h1{
+    font-size:2.4rem;
 }
 
 .hero{
