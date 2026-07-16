@@ -105,9 +105,6 @@ nav a:hover{
     font-size:1rem;
 }
 
-}
-
-
 .btn{
     background:#FFD54F;
     color:#003366;
@@ -196,7 +193,7 @@ max-width:900px;
 margin:auto;
 }
 
-footer{
+.footer{
 background:#222;
 color:white;
 text-align:center;
@@ -208,11 +205,11 @@ margin-top:50px;
 
 header{
 
-flex-direction:column;
+.flex-direction:column;
 
 }
 
-nav ul{
+.nav ul{
 
 flex-direction:column;
 
