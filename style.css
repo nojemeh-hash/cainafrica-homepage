@@ -207,19 +207,22 @@ margin-top:50px;
 
 @media (max-width:768px){
 
-header{
+    header{
+        flex-direction:column;
+        padding:15px;
+    }
 
-flex-direction:column;
+    nav ul{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:12px;
+        margin-top:12px;
+    }
 
-}
-
-nav ul{
-
-flex-direction:column;
-
-text-align:center;
-
-margin-top:20px;
+    nav a{
+        font-size:15px;
+    }
 
 }
 
