@@ -13,6 +13,13 @@ line-height:1.6;
 background:#f4f7fb;
 color:#333;
 padding-top:80px;
+display:flex;
+flex-direction:column;
+min-height:100vh;
+}
+
+main{
+    flex:1;
 }
 
 header{
