@@ -107,14 +107,12 @@ nav a:hover{
 
 }
 
+
 .btn{
-    display:inline-block;
-    background:#004080;
-    color:white;
-    padding:14px 28px;
-    border-radius:5px;
-    text-decoration:none;
-    transition:.3s;
+    background:#FFD54F;
+    color:#003366;
+    font-weight:bold;
+    border-radius:40px;
 }
 
 .btn:hover{
