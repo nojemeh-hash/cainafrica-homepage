@@ -129,6 +129,14 @@ nav a:hover{
     box-shadow:0 12px 30px rgba(0,0,0,.15);
 }
 
+.card i{
+    transition:.3s;
+}
+
+.card:hover i{
+    transform:scale(1.15);
+}
+
 .features{
     padding:70px 20px;
     background:#eef4fb;
