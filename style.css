@@ -198,7 +198,7 @@ max-width:900px;
 margin:auto;
 }
 
-.footer{
+footer{
 background:#222;
 color:white;
 text-align:center;
@@ -214,7 +214,7 @@ header{
 
 }
 
-.nav ul{
+nav ul{
 
 flex-direction:column;
 
